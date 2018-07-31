@@ -12,7 +12,7 @@ class Ideone
 		// your code goes here
 		int num;
 		Scanner sc=new Scanner(System.in);
-		int num=sc.nextInt();
+		num=sc.nextInt();
 		int fact=1;
 		for(int i=1;i<=num;i++)
 		{
