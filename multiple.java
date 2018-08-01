@@ -10,15 +10,15 @@ class Ideone
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		// your code goes here
-		int num,res;
+				int num,res,k=0;
 		Scanner sc=new Scanner(System.in);
 		num=sc.nextInt();
 		for(int i=1;i<=5;i++)
-		{
+		{++k;
 			res=i*num;
-			if(i<num){
-			System.out.print(res);
+			if(k>1){
 			System.out.print(" ");
+			System.out.print(res);
 			}
 			else{
 				System.out.print(res);
