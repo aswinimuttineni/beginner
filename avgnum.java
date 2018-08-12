@@ -11,7 +11,7 @@ class Ideone
 	{
 		// your code goes here
 		int n,sum=0;
-		float avg;
+		
 		Scanner sc=new Scanner(System.in);
 		n=sc.nextInt();
 		int[] a=new int[10];
@@ -23,7 +23,7 @@ class Ideone
 		{
 			sum=sum+a[i];
 		}
-		avg=(float)sum/n;
+		int avg=sum/n;
 		System.out.println(avg);
 	}
 }
