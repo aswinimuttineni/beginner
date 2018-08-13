@@ -18,7 +18,7 @@ class Ideone
 		{
 			a[i]=sc.nextInt();
 		}
-		int max=a[0];
+		int max=0;
 		for(int i=0;i<10;i++)
 		{
 			for(int j=1;j<10;j++)
