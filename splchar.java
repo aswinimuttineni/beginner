@@ -1,0 +1,25 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. */
+class Ideone
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+		Scanner sc=new Scanner(System.in);
+		String str=sc.next();
+		int len=str.length();
+		int k=0;
+		for(int i=0;i<len;i++)
+		{
+			if((str.charAt(i)>='a'&&str.charAt(i)<='z')||(str.charAt(i)>='A'&&str.charAt(i)<='Z')||(str.charAt(i)>=48&&str.charAt(i)<=57)||str.charAt(i)==' ')
+			continue;
+			else
+			k++;
+		}
+			System.out.println(k);
+	}
+}
+	
