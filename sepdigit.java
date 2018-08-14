@@ -11,7 +11,7 @@ class Ideone
 		int n;
 		Scanner sc=new Scanner(System.in);
 		n=sc.nextInt();
-		int rev=0;
+		int rev=0,k=0;
 		int count=0;
 		while(n!=0)
 		{
@@ -20,15 +20,17 @@ class Ideone
 			n=n/10;
 			count++;
 		}
+		count=count-2;
 		while(rev>0)
 		{
 			int digit=rev%10;
 			System.out.print(digit);
-			if(count!=(count-1))
+			if(k<=count)
 			{
 				System.out.print(" ");
-				rev=rev/10;
+				k++;
 			}
+			rev=rev/10;
 		}
 			
 	}
