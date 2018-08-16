@@ -12,7 +12,7 @@ class Ideone
 		// your code goes here
 		String str;
 		Scanner sc=new Scanner(System.in);
-		str=sc.next();
+		str=sc.nextline();
 		for(int i=1;i<2;System.out.println(str))
 		{
 			i++;
