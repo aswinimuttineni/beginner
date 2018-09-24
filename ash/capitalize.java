@@ -22,6 +22,5 @@ class Ideone
 		
 		System.out.println(sb);
 		
-
 	}
 }
